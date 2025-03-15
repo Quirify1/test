@@ -1,0 +1,226 @@
+/* Sakura Snake by lezaka */
+
+:root {
+      --div-grey: transparent;
+      --div-black: transparent;
+      --text-shadow: 2px 2px 3px rgba(30, 30, 30, .5)
+  }
+    
+     /* font */
+  
+  @font-face {
+        font-family: gamefont;
+        src: url(https://dl.dropboxusercontent.com/scl/fi/msn19ofgvofwm12oqt182/Montserrat-Regular.ttf?rlkey=2q0iowy5xlg5db9v7pxyfcvqc&dl=0)
+  }
+  
+  /* menu css */
+  
+     /* bottom hover cred shotzz css */
+  
+  
+  #subLogoButtons::before {
+        content: '';
+        border-left: 1000px solid #ff000000 !important;
+        border-bottom: 240px solid #ff000000 !important;
+        border-right: 1000px solid #ff000000 !important;
+        position: absolute !important;
+        bottom: 60px !important;
+        right: -600px !important;
+        pointer-events: auto !important
+  }
+  
+  
+  .button, .button:hover { 
+        background-color: transparent !important;
+        border: hidden !important
+  }
+  
+     /* top left */
+  
+  #mLevelCont, .headerBarLeft, .headerBarRight {
+        background-color: transparent
+  }
+  
+  #menuAccountUsername {
+        font-size: 23px;
+        padding-top: 4px;
+        padding-left: 6px
+  }
+  
+  .verticalSeparator {
+        opacity: 0
+  }
+  
+  .progressBar {
+        height: 8px;
+        margin-top: -4px;
+        background-color: rgba(0, 0, 0, 0.15)
+  }
+  
+  .progressBarInner {
+        background-image: linear-gradient(to right,lightslategray, white)
+  }
+  
+  #mailContainer {  
+        padding-bottom: 3px
+  }
+  
+  #mLevelContV {
+        font-size: 60px
+  }
+  
+  .krInfo {
+        font-size: 20px !important;
+        position: fixed;
+        top: 89px;
+        left: 20px
+  }
+  
+  .junkInfo {
+        font-size: 20px !important;
+        position: fixed;
+        top: 94px;
+        left: 140px
+  }
+  
+     /* left */
+  
+  .material-icons-outlined, span.material-symbols-outlined {
+        color: pink !important
+  }
+  
+  #menuItemContainer {
+        background: transparent
+  }
+  
+     /* hud class popup */
+  
+  #menuClassContainer:hover #classPreviewCanvas {
+        transform: unset !important
+  }
+  
+  #classPreviewCanvas {
+        transform: translateY(5000000px);
+        margin-bottom: -135px;
+        margin-right: -180px
+  }
+  
+  #customizeButton {
+        font-size: 700px!important;
+        opacity: 0
+  }
+  
+     /* remove click to play animation */
+  
+  #instructions {
+        animation: none
+  }
+  
+   
+
+      /* counters */
+  
+  #killsVal,#deathsVal,#streakVal,#myScoreVal,#kdVal {
+        color: pink;
+        font-size: 30px;
+        text-shadow: var(--text-shadow)
+  }
+  
+  #killsIcon,#deathsIcon,#streakIcon,#kdIcon {
+        width: 25px;
+        height: 25px
+  }
+
+  #leaderContainer {
+        text-shadow: var(--text-shadow)
+  }
+  
+     /* fps and ping */
+
+  #fpsDisplay {
+        padding-top: 12px;
+  }
+
+  #menuFPSDisplay,#menuFPS,#ingameFPS,#fpsDisplay,
+  #menuPingText,#menuPingDisplay .material-icons,#pingDisplay,#pingText {
+        color: rgb(255, 183, 197) !important;
+        text-shadow: var(--text-shadow)
+  }
+
+
+.nHpBSeg {
+background-color:pink!important;
+}
+
+     /* weapon animation */
+
+.weapItem {
+    transition-duration: 0.25s;
+    height: 0;
+    opacity: 0 !important;
+    background-color: transparent;
+}
+
+.weapItemInner {
+    background-color: transparent
+}
+
+.weapIcon {
+    height: 50%;
+    width: 50%;
+}
+
+.weapItem[style*="1"] {
+    opacity: 1 !important;
+    height: 80px;
+}
+
+.weapKey,.weapSkin, .weapStreakHolder, .weapStreakInner {
+    display: none !important;
+}
+	
+  
+
+ /* relaod */
+#ammoHolder {
+    position: fixed;
+    top: calc(50% + 35px);
+    left: calc(50% - 30px);
+    transform: unset;
+    height: 7px;
+    width: 60px;
+    background-color: transparent!important;
+    background-image: linear-gradient(to right,rgb(255 255 255),rgb(255 255 255))
+}
+
+#ammoVal {
+    font-size: 50px;
+    position: fixed;
+    right: calc(0% + 40px);
+    bottom: 30px;
+    text-shadow: 2px 2px  5px  #000000a8;
+}
+
+
+#ammoMax, #ammoIcon {
+        display: none;
+}
+
+.greyInner {
+        background-color: #FFF0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
